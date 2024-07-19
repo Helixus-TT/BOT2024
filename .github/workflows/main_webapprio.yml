@@ -79,5 +79,5 @@ jobs:
           slot-name: 'Production'
       - name: Run app.py
         run: |
-            nohup python "https://github.com/Helixus-TT/BOT2024/tree/main/.github/workflows/{{cookiecutter.bot_name}}/app.py" &
+            nohup python .github/workflows/{{cookiecutter.bot_name}}/app.py &
           
